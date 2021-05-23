@@ -20,7 +20,7 @@ interface ITextInputCPProps {
   }
   onBlur?: {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    (e: FocusEvent<any>): void
+    (e: any): void
     <T = any>(fieldOrEvent: T): T extends string ? (e: any) => void : void
   }
 }
