@@ -7,6 +7,10 @@
     "build": "next build",
     "start": "next start"
   },
+    "engines": {
+    "node": ">=12.16.2",
+    "npm": ">=7.6.3"
+  },
   "dependencies": {
     "@ant-design/icons": "^4.6.2",
     "@next/bundle-analyzer": "^10.0.9",
