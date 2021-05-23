@@ -18,9 +18,9 @@ interface ITextInputCPProps {
       ? void
       : (e: string | React.ChangeEvent<any>) => void
   }
-  onBlur?: {
+onBlur?: {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    (e: FocusEvent<any>): void
+    (e: any): void
     <T = any>(fieldOrEvent: T): T extends string ? (e: any) => void : void
   }
 }
